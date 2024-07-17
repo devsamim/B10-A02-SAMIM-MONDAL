@@ -18,17 +18,15 @@ body{
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
- 
-  
 }
 .logo{
   margin-top: 18px;
   margin-left: 50px;
 }
 .logo-text{
-color: rgb(230, 83, 60);
-font-size: 30px;
-font-weight: 600;
+  color: rgb(230, 83, 60);
+  font-size: 30px;
+  font-weight: 600;
 }
 .home-btn{
   background-color:rgb(230, 83, 60) ;
@@ -52,7 +50,34 @@ padding: 30px;
 }
 .nav-item li{
   list-style: none;
+}
+.bar{
+  display: none;
+  padding: 30px;
+  color:white
  
+}
+/* small or mobile device responsive css */
+@media screen and (max-width:576px) {
+  .max-div,
+  .nav-li-item{
+  flex-direction: column; 
   
-
+  }
+  .nav-item{
+  display: none;
+  }
+  .bar{
+    display: block;
+    padding: 30px;
+    color:white
+   
+  }
+  .max-div{
+    width: 100%; 
+    flex-direction: row;
+  }
+  .nav-li-item{
+   gap: 10px;
+  }
 }
