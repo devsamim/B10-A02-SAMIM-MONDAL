@@ -369,7 +369,8 @@ workout-title1{
   .max-div,
   .nav-li-item,.banner-container,
   .button-container,
-  .habit-image-container{
+  .habit-image-container,
+  .run-container{
   flex-direction: column; 
   
   }
@@ -411,20 +412,20 @@ workout-title1{
     color: white;
 }
 .banner-description{
- width: 200px;
- margin-left: 48px;
-}
-.button-container{
-  width: 319px;
-  margin-bottom: 50px;
-  margin-left: 30px;
-}
-.banner-container{
-  max-width: 576px;
-  width: 100%;
-  /* border: 1px solid red; */
-}
-.shape{
+  width: 200px;
+  margin-left: 48px;
+ }
+ .button-container{
+   width: 319px;
+   margin-bottom: 50px;
+   margin-left: 30px;
+ }
+ .banner-container{
+   max-width: 576px;
+   width: 100%;
+   /* border: 1px solid red; */
+ }
+ .shape{
   font-family: "Playwrite NL", cursive;
   font-size: 1rem;
   font-weight: 900;
@@ -482,10 +483,6 @@ workout-title1{
   margin:0px;
  border: 1px solid red;
 }
-}
-/* .habits-image img{
-  margin-left: 71px;
-} */
 #desk-image1{
   margin-left: 71px;
 }
@@ -509,3 +506,35 @@ margin-left: -18px;
   text-align: center;
 
 }
+.run-container{
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  padding: 20px;
+}
+.run-content{
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.run-image{
+  width: 100%;
+ }
+ .run-title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+ }
+ .run-join-btn{
+  width: 250px;
+  height: 50px;
+  margin-left: 40px;
+  
+ }
+}
+
+
+
