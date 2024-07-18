@@ -24,7 +24,8 @@ body{
 }
 .logo{
   margin-top: 18px;
-  margin-left: 50px;
+  margin-left: 120px;
+  cursor: pointer;
 }
 .logo-text{
   color: rgb(230, 83, 60);
@@ -35,16 +36,19 @@ body{
   background-color:rgb(230, 83, 60) ;
   padding: 8px;
   border-radius: 40px;
+
 }
 .nav-item a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   margin-left: 30px;
+  
 
 }
 .nav-li-item{
 display: flex;
 padding: 30px;
+
 
 
 }
@@ -71,6 +75,7 @@ padding: 30px;
   border-radius: 48px;
   margin-left: 1012px;
   margin-top: 17px;
+  cursor: pointer;
 }
  
 /* banner section css style */
@@ -102,7 +107,7 @@ padding: 30px;
 .banner-description{
   font-size: 1rem;
   font-weight: 500;
-  color: rgba(86, 77, 77, 0.66);
+  color: rgba(255, 255, 255, 0.5);
   margin-bottom: 1.2rem;
   margin-top: 1.2rem;
 }
@@ -110,6 +115,7 @@ padding: 30px;
   padding: 10px;
   margin-left: 20px;
   margin-top: 30px;
+  cursor: pointer;
 }
 .btn-join{
   background-color: rgb(230, 83, 60);
@@ -117,6 +123,7 @@ padding: 30px;
   padding: 0.5rem;
   font-size: 1.1rem;
   font-weight: 500;
+  cursor: pointer;
   border-radius: 2.5rem;
   border: none;
   outline: none;
@@ -129,6 +136,7 @@ padding: 30px;
   border-radius: 2.5rem;
   border: none;
   outline: none;
+  cursor: pointer;
   color: rgba(255, 255, 255, 0.858);
  
 }
@@ -147,6 +155,7 @@ width: 48%;
   border-radius: .5rem;
   background-color: rgba(0, 0, 0, 0.472);
   color: white;
+  cursor: pointer;
 }
 .workout-video2{
   position: absolute;
@@ -160,6 +169,7 @@ width: 48%;
   border-radius: .5rem;
   background-color: rgba(0, 0, 0, 0.472);
   color: white;
+  cursor: pointer;
   }
 .circle{
   display: flex;
@@ -211,6 +221,55 @@ workout-title1{
   margin-left: 200px;
   margin-bottom: 1.2rem;
 }
+/* habits section style */
+.habits-container{
+  width: 85%;
+  margin: 100px auto;
+  border: 1px solid red;
+ 
+}
+.habits-title{
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+ 
+}
+.habits-desc{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: .7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.image-title{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+.image-desc{
+  margin-top: 10px;
+  text-align: center;
+  
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.7rem;
+  font-weight: 400;
+
+}
+.habit-image-container{
+  border: 1px solid red;
+  display: flex;
+  margin: 30px 200px;
+  padding: 40px;
+  justify-content: space-between;
+  
+}
+.habits-image img{
+  border-radius: 50%;
+}
+
 /* small or mobile device responsive css */
 @media screen and (max-width:576px) {
   .max-div,
