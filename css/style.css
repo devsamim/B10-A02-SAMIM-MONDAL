@@ -225,7 +225,7 @@ workout-title1{
 .habits-container{
   width: 85%;
   margin: 100px auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
  
 }
 .habits-title{
@@ -252,16 +252,14 @@ workout-title1{
 .image-desc{
   margin-top: 10px;
   text-align: center;
-  
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.7rem;
   font-weight: 400;
 
 }
 .habit-image-container{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
-  margin: 30px 200px;
   padding: 40px;
   justify-content: space-between;
   
@@ -273,7 +271,9 @@ workout-title1{
 /* small or mobile device responsive css */
 @media screen and (max-width:576px) {
   .max-div,
-  .nav-li-item,.banner-container,button-container{
+  .nav-li-item,.banner-container,
+  .button-container,
+  .habit-image-container{
   flex-direction: column; 
   
   }
@@ -288,6 +288,11 @@ workout-title1{
     padding: 30px;
     color:white
    
+  }
+  .logo{
+    margin-top: 18px;
+    margin-left: 48px;
+    cursor: pointer;
   }
   .max-div{
     width: 100%; 
@@ -314,10 +319,9 @@ workout-title1{
  margin-left: 48px;
 }
 .button-container{
-  display: flex;
   width: 319px;
   margin-bottom: 50px;
-  margin-left: 9px;
+  margin-left: 30px;
 }
 .banner-container{
   max-width: 576px;
@@ -369,6 +373,31 @@ workout-title1{
   background-color: rgba(0, 0, 0, 0.472);
   color: white;
 }
-
+.habits-container{
+  width: 100%;
+  border: 1px solid red;
+  margin-bottom: 100px;
+}
+.habits-desc{
+  font-size: 1rem;
+  padding: 20px;
+}
+.habit-image-container{
+  margin:0px;
+ border: 1px solid red;
+}
+}
+.habits-image img{
+  margin-left: 94px;
+}
+.habits-image h5{
+margin-left: 37px;
+}
+.habits-image p{
+  font-size: 1rem;
+  margin-left: 52px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-align: center;
 
 }
