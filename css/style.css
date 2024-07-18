@@ -207,7 +207,6 @@ workout-title1{
   position: relative;
 }
 .banner-image-container img{
-  
   object-fit: cover;
   margin-left: 200px;
   margin-bottom: 1.2rem;
@@ -215,9 +214,12 @@ workout-title1{
 /* small or mobile device responsive css */
 @media screen and (max-width:576px) {
   .max-div,
-  .nav-li-item{
+  .nav-li-item,.banner-container,button-container{
   flex-direction: column; 
   
+  }
+  .round{
+    display: none;
   }
   .nav-item{
   display: none;
@@ -232,7 +234,82 @@ workout-title1{
     width: 100%; 
     flex-direction: row;
   }
+  .max-wid-banner{
+    width: 100%;
+   
+  }
   .nav-li-item{
    gap: 10px;
   }
+  .banner-title {
+    width: 200px;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 48px;
+    font-weight: 800;
+    line-height: 3rem;
+    color: white;
+}
+.banner-description{
+ width: 200px;
+ margin-left: 48px;
+}
+.button-container{
+  display: flex;
+  width: 319px;
+  margin-bottom: 50px;
+  margin-left: 9px;
+}
+.banner-container{
+  max-width: 576px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.shape{
+  font-family: "Playwrite NL", cursive;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.button-container button{
+  padding: 10px;
+  margin-left: 20px;
+}
+.banner-image-container{
+  max-width: 576px;
+  width: 100%;
+  margin-bottom: 50px;
+  /* border: 1px solid red; */
+}
+.banner-image-container img{
+  margin-left: 4px;
+  
+}
+.workout-video {
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 200px;
+  border: 1px solid rgb(112, 115, 112);
+  background-color: rgb(246, 0, 0);
+  width: 150px;
+  height: 80px;
+  padding: .4rem;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.472);
+  color: white;
+}
+.workout-video2 {
+  position: absolute;
+  margin-top: -356px;
+  margin-left: 18px;
+  border: 1px solid rgb(112, 115, 112);
+  background-color: rgb(246, 0, 0);
+  width: 150px;
+  height: 80px;
+  padding: .4rem;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.472);
+  color: white;
+}
+
+
 }
