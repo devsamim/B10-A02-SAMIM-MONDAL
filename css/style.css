@@ -313,7 +313,7 @@ workout-title1{
   border-radius: 20px;
   background-color: rgba(85, 93, 100, 0.558);
   display: flex;
-  margin-bottom: 40px;
+  
  }
  .run-content{
   width: 40%;
@@ -361,6 +361,136 @@ workout-title1{
   border-radius: 20px;
   object-fit: cover;
  }
+ /* bmi style  */
+ .bmi-container{
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+ 
+  background-color: rgb(34, 34, 34);
+  
+  /* border: 1px solid red; */
+ }
+ .bmi-content{
+  width: 50%;
+  margin: 0 auto;
+
+  /* border: 1px solid red; */
+ }
+ .bmi-title{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 40px;
+  color: white;
+ }
+ .bmi-desc{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+ }
+ .bmi-chart-container{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  /* border: 1px solid red; */
+
+  margin-top: 50px;
+ }
+ .bmi-cal-title{
+  color: white;
+  
+ }
+ .bmi-calculate-content{
+  width: 50%;
+
+ margin:20px ;
+
+  /* border: 1px solid red; */
+  
+ }
+ .bmi-chart{
+  width: 50%;
+  margin:20px 20px 20px 56px;
+  /* border: 1px solid red; */
+
+ }
+ .chart-title{
+  margin-bottom: 2rem;
+  color: white;
+ }
+ .bmi-cal-desc{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 10px 0px 10px 0px;
+ }
+ input{
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(99, 93, 93, 0.743);
+ }
+ .inp2{
+  margin-left: 8px;
+ }
+ .sex{
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 8px;
+  background-color: rgba(99, 93, 93, 0.743);
+  color:rgba(255, 255, 255, 0.262);
+ }
+ .factor{
+  width: 511px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgba(99, 93, 93, 0.743);
+  color:rgba(255, 255, 255, 0.262);
+ }
+ table{
+  width: 50%;
+  height: 50%;
+ 
+ }
+ thead{
+  color:rgb(255, 255, 255);
+  font-size: .9rem;
+ }
+ thead th{
+  text-align: start;
+  padding: 8px;
+ }
+ tr{
+  height: 2rem;
+ }
+ td{
+  padding: 8px;
+  font-size: .7rem;
+  color: rgba(255, 255, 255, 0.5);
+ }
+ .cal-btn{
+  width: 150px;
+  height: 40px;
+  background-color: rgb(230, 83, 60);
+  color: aliceblue;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+ }
+ 
+ 
  
  
 
@@ -472,7 +602,7 @@ workout-title1{
 }
 .habits-container{
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-bottom: 100px;
 }
 .habits-desc{
@@ -481,7 +611,7 @@ workout-title1{
 }
 .habit-image-container{
   margin:0px;
- border: 1px solid red;
+ /* border: 1px solid red; */
 }
 #desk-image1{
   margin-left: 71px;
