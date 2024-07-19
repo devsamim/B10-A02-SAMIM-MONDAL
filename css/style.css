@@ -8,12 +8,13 @@
 }
 body{
   font-family: "Inter", sans-serif;
-  background-color: rgba(0, 0, 0, 0.983)
+  background-color: rgba(35,35,35);
   
 }
 /* header navbar style */
 .navbar-container{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(15, 12, 12, 0.794) 100%);
+  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(15, 12, 12, 0.794) 100%); */
+  background-color: rgb(24,24,24);
 }
 .max-div{
   width: 90%;
@@ -490,7 +491,47 @@ workout-title1{
   outline: none;
  }
  
- 
+ /* team css style  */
+ .team-container{
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+ }
+ .team-content{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  /* border:1px solid red; */
+  text-align: center;color: white;
+  margin-bottom: 40px;
+ }
+ .team-title{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+ }
+ .team-desc{
+  font-size:.8rem ;
+  color:rgba(255, 255, 255, 0.5);
+ }
+ .image-main-container{
+  background: rgba(216, 210, 210, 0.05);
+  width: 67%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  /* border: 1px solid red; */
+  border-radius: 1rem;
+ margin: 0 auto;
+ }
+ .image-main-container img{
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 1rem;
+  /* border: 1px solid red; */
+  
+ }
  
  
 
@@ -712,6 +753,10 @@ margin-left: -18px;
  }
  table{
   width: 272px;
+ }
+ .image-main-container{
+  grid-template-columns: 1fr;
+  width: 75%;
  }
 }
 
