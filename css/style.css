@@ -508,7 +508,8 @@ workout-title1{
  .team-title{
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 29px;
+  margin-top: 20px;
  }
  .team-desc{
   font-size:.8rem ;
@@ -523,6 +524,7 @@ workout-title1{
   /* border: 1px solid red; */
   border-radius: 1rem;
  margin: 0 auto;
+ margin-bottom: 10px;
  }
  .image-main-container img{
   width: 250px;
@@ -531,6 +533,95 @@ workout-title1{
   border-radius: 1rem;
   /* border: 1px solid red; */
   
+ }
+ .footer-bg{
+  background-color: #1A1A1A;
+  width: 100%;
+
+ 
+  /* border: 1px solid red; */
+  
+ }
+ .footer-section-container{
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  /* border:1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  
+  
+
+ }
+ .footer-content{
+  /* border:1px solid red; */
+  width: 35%;
+ }
+ .footer-service1{
+  /* border:1px solid red; */
+  width: 30%;
+  margin-left: 15px;
+ }
+ .footer-service2{
+  margin-left: 15px;
+  width: 30%;
+  /* border:1px solid red; */
+ }
+ .f-logo{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: rgb(230, 83, 60);
+  cursor: pointer;
+ }
+ .logo-desc{
+  font-size: .7rem;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+  margin-right: 30px;
+ }
+ .footer-sr-title{
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  color: white;
+ }
+ .service{
+  color:rgba(255, 255, 255, 0.5);
+  list-style: none;
+ }
+ ul li{
+  padding: 5px;
+  font-size: .8;
+  font-weight: 500;
+  margin-left: 15px;
+  
+ }
+ li a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.5);
+ }
+ hr{
+  width: 60%;
+  margin:0 auto;
+  color: #1a1a1aa4;
+  
+ }
+ .copy{
+  height: 50px;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:rgba(255, 255, 255, 0.3) ;
  }
  
  
@@ -542,7 +633,8 @@ workout-title1{
   .button-container,
   .habit-image-container,
   .run-container,
-  .bmi-chart-container{
+  .bmi-chart-container,
+  .footer-section-container{
   flex-direction: column; 
   
   }
