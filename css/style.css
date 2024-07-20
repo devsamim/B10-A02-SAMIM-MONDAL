@@ -336,6 +336,7 @@ workout-title1{
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 40px;
   margin-top: 20px;
+  margin-left: -11px;
  }
  .run-join-btn{
   width: 180px;
@@ -526,14 +527,39 @@ workout-title1{
  margin: 0 auto;
  margin-bottom: 10px;
  }
- .image-main-container img{
-  width: 250px;
-  height: 200px;
-  margin: 20px;
-  border-radius: 1rem;
-  /* border: 1px solid red; */
+ .team-img{
+  
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  position: relative;
   
  }
+ .img-title{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -62px;
+  font-size: 1rem;
+  font-weight: 900;
+  color: white;
+ }
+ .img-tit2{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -40px;
+  font-size: .8rem;
+  font-weight: 400;
+  color: rgba(216, 210, 210, 0.80);
+ }
+ .image-main-container img{
+  width: 260px;
+  height: 235px;
+  margin: 15px;
+  border-radius: 1rem;
+  /* border: 1px solid red;  */
+  
+ }
+ 
  .footer-bg{
   background-color: #1A1A1A;
   width: 100%;
@@ -638,6 +664,9 @@ workout-title1{
   flex-direction: column; 
   
   }
+  .banner-content{
+    width: 100%;
+  }
   .bmi-container{
    width: 90%;
    height: 100%;
@@ -646,14 +675,40 @@ workout-title1{
    width: 100%;
    /* border: 1px solid red; */
   }
+  .team-container,.team-content{
+    width: 100%;
+    padding: 15px;
+  }
+  .team-img img{
+   border-radius: 8px;
+  }
+  .footer-content{
+    width: 100%;
+  }
+  .logo-desc{
+    
+    font-size: .8rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+    margin-left: 24px;
+   }
+   .footer-service1,.service,footer-service-2{
+    width: 100%;
+    margin-left: 20px;
+   }
+   .footer-sr-title{
+    margin-top: 20px;
+    margin-left: 24px;
+   }
   .bmi-chart{
     width: 80%;
     margin: 30px;
     /* border: 1px solid red; */
   }
   .bmi-calculate-content{
-    width: 80%;
-    margin: 30px;
+    width: 100%;
+  
     /* border: 1px solid red; */
   }
   .round{
@@ -664,13 +719,13 @@ workout-title1{
   }
   .bar{
     display: block;
-    padding: 30px;
+    padding: 26px;
     color:white
    
   }
   .logo{
     margin-top: 18px;
-    margin-left: 48px;
+    margin-left: 38px;
     cursor: pointer;
   }
   .max-div{
@@ -684,28 +739,52 @@ workout-title1{
   .nav-li-item{
    gap: 10px;
   }
+  .team-desc{
+   margin: 36px;
+  }
   .banner-title {
-    width: 226px;
+    width: 230px;
     font-size: 2rem;
     margin-top: 1rem;
-    margin-left: 48px;
-    font-weight: 800;
+    margin-left: 37px;
+    font-weight: 700;
     line-height: 3rem;
     color: white;
 }
+.cal-btn{
+width: 187px;
+margin-top: 45px;
+}
 .banner-description{
   width: 225px;
-  margin-left: 48px;
+  margin-left: 37px;
+ }
+ .bmi-cal-desc{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 10px 22px 22px 0px;
  }
  .button-container{
    width: 385px;
-   margin-bottom: 50px;
-   margin-left:25px;
+   margin-bottom: 40px;
+   margin-left:-12px;
  }
  .banner-container{
-   max-width: 576px;
    width: 100%;
    /* border: 1px solid red; */
+ }
+ .team-img{
+  height: 100%;
+  margin-left: -20px;
+  margin-top: -19px;
+ }
+ .footer-section-container{
+  width: 100%;
+ }
+ .f-logo{
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-left: 24px;
  }
  .shape{
   font-family: "Playwrite NL", cursive;
@@ -722,6 +801,14 @@ workout-title1{
   margin-bottom: 50px;
   /* border: 1px solid red; */
 }
+.image-main-container img{
+  width: 100%;
+  height: 85%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
 .banner-image-container img{
   margin-left: 4px;
   
@@ -801,6 +888,7 @@ margin-left: -18px;
 }
 .run-image{
   width: 100%;
+  margin-left: -12px;
  }
  .run-title{
   font-size: 2rem;
@@ -809,11 +897,12 @@ margin-left: -18px;
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 20px;
+  margin-left: -12px;
  }
  .run-join-btn{
   width: 250px;
   height: 50px;
-  margin-left: 40px;
+  margin-left:-6px;
   
  }
  .bmi-content{
@@ -848,7 +937,7 @@ margin-left: -18px;
  }
  .image-main-container{
   grid-template-columns: 1fr;
-  width: 75%;
+  width: 100%;
  }
 }
 
