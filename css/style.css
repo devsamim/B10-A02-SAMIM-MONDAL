@@ -562,7 +562,114 @@ workout-title1{
   /* border: 1px solid red;  */
   
  }
+ .unique-container{
+  width: 80%;
+  height: 50vh;
+  margin:0 auto;
+  padding: 10px;
+  text-align: center;
+  color:white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  /* border: 1px solid red */
+ }
+ .unique-container h1{
+  margin-bottom: 30px;
+ }
+ .unique{
+  display: flex;
+  
+ }
+ .unique-content1{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+  border-top: 10px solid green;
+  border-bottom: 10px solid rgb(255, 59, 9);
+   background-color: #f3f3f3de;
+   border-radius: 20% 0% 20% 0%;
+
+ }
+ .enq{
+  background-color: rgb(1, 112, 210);
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 160px;
+  height: 56px;
+  color: white;
+  margin-top: 40%;
+  font-weight: 800;
+  border: none;
+  
+  position: relative;
+  
+ }
+ .enq-btn:hover{
+  transform: scaleX(2.1,2.1);
+  transition: 5s 1s;
+ }
+ @keyframes enq-btn {
+  0%{
+    transform: scale(1,1);
+    opacity: 0;
+  }
+  50%{
+    transform: scale(1.4,1.4);
+    opacity: 0.8;
+  }
+  100%{
+    transform: scale(1,0);
+    opacity: 0;
+  }
+ }
+ .btn-effect{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+  animation: enq-btn 5s 0s infinite linear;
+  background-color: rgb(46, 53, 80);
+ }
+ .unique-content2{
+  background-image: url(../images/f2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position-x: center;
+  background-attachment: inherit;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+
+
+ }
  
+ .unique-content3{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid green;
+  background-color: rgb(238, 147, 0);
+
+ }
+ .unique-content4{
+  width: 250px;
+  height: 250px;
+  border-radius: 0% 20% 0% 20%;
+  margin: 0 auto;
+  border: 1px solid green;
+  background-color: rgb(106, 14, 235);
+
+ }
  .footer-bg{
   background-color: #1A1A1A;
   width: 100%;
