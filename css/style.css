@@ -746,6 +746,7 @@ workout-title1{
  .footer-bg{
   background-color: #1A1A1A;
   width: 100%;
+  
 
  
   /* border: 1px solid red; */
@@ -829,7 +830,6 @@ workout-title1{
   font-size: .9rem;
   font-weight: 500;
   margin-top: 30px;
-  margin-bottom: 30px;
   color:rgba(255, 255, 255, 0.3) ;
  }
  
@@ -848,10 +848,15 @@ workout-title1{
   flex-direction: column; 
   
   }
+  .unique{
+   width: 95%;
+   height: 100%;
+  }
+ 
   .unique-container{
     width: 100%;
-    height: 100vh;
   }
+  
   .banner-content{
     width: 100%;
   }
@@ -1026,6 +1031,14 @@ margin-top: 25px;
   margin-left: 4px;
   
 }
+.unique-content1 {
+  width: 243px;
+ 
+  margin: 50px auto;
+}
+.enq{
+  margin-top: 82px;
+}
 .workout-video {
   position: absolute;
   margin-top: -550px;
@@ -1046,10 +1059,7 @@ margin-top: 25px;
   margin-left: -36px;
 }
 .unique-content2{
-  width:250px;
-  height: 250px;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+ width: 100%;
 }
 .workout-video2 {
   position: absolute;
